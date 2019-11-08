@@ -67,6 +67,7 @@ Citizen.CreateThread(function()
 						if flag then
 						TriggerServerEvent('jh:vahicle')
 						 TriggerEvent('esx_ambulancejob:revive', source)
+						 timerCount = reviveWait
 						end
 				
 					end)

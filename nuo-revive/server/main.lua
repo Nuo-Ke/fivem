@@ -29,7 +29,7 @@ ESX.RegisterServerCallback('jh:jiance', function (source, cb)
 
 	SetTimeout(10 * 1000, CountCops)
 	
-	if CopsConnected>0 then 
+	if CopsConnected>1 then 
 		cb(false)
 	else
 		cb(true)
